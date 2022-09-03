@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Welcome page</h1>
+    <h1 class="welcome">Welcome page</h1>
     <NuxtLink to="/">index page</NuxtLink>
     <br />
     <UiButton />
@@ -18,3 +18,9 @@ const getHello = async () => {
 };
 const hello = useHello();
 </script>
+
+<style scoped>
+.welcome {
+  color: var(--secondary);
+}
+</style>
