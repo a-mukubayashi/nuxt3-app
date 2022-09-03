@@ -28,6 +28,7 @@
 - data が廃止され `ref` `reactive` を使用
   - ref 独立したプリミティブな値（string, number, boolean）
   - reactive 複数のプロパティを持つ値(Object)
+  - [Nuxt 3 State Management: Pinia vs useState](https://www.vuemastery.com/blog/nuxt-3-state-mangement-pinia-vs-usestate/)
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
