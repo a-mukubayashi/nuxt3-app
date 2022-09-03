@@ -2,6 +2,7 @@
   <main>
     <h1>Index page</h1>
     <NuxtLink to="/welcome">welcome page</NuxtLink>
+    <ContentDoc />
   </main>
 </template>
 
