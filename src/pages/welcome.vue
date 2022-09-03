@@ -6,6 +6,7 @@
     <UiButton />
     <br />
     <div>useHello: {{ hello }}</div>
+    <div>nested function: {{ add(1, 2) }}</div>
   </main>
 </template>
 
