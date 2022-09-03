@@ -9,6 +9,11 @@
   - middleware [Nitro](https://github.com/unjs/nitro) includes [h3](https://github.com/unjs/h3)
 - TypeScript
 
+- `public/` server root
+  - 静的アセットの公開サーバー(ex: image)
+- `assets/` build tools asset
+  - ローダー(webpack or Vite)を介して拡張が可能（ex: css, stylesheet, font）
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
