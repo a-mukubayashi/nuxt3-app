@@ -7,15 +7,21 @@
     <br />
     <div>useHello: {{ hello }}</div>
     <div>nested function: {{ add(1, 2) }}</div>
-    <button @click="getHello">get hello</button>
+    <div>
+      Counter: {{ counter }}
+      <button @click="updateCounter(counter + 1)">+</button>
+      <button @click="updateCounter(counter - 1)">-</button>
+    </div>
   </main>
 </template>
 
 <script setup lang="ts">
-const getHello = async () => {
+const { counter, updateCounter } = useCounter();
+
+onMounted(async () => {
   const { data } = await useFetch("/api/hello");
   console.log(data.value.api); // works
-};
+});
 
 const hello = useHello();
 
