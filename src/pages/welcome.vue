@@ -3,7 +3,7 @@
     <h1 class="welcome">Welcome page</h1>
     <NuxtLink to="/">index page</NuxtLink>
     <br />
-    <UiButton />
+    <UiButton name="button label" @onClick="onClick" />
     <br />
     <div>useHello: {{ hello }}</div>
     <div>nested function: {{ add(1, 2) }}</div>
@@ -16,7 +16,12 @@ const getHello = async () => {
   const { data } = await useFetch("/api/hello");
   console.log(data.value.api); // works
 };
+
 const hello = useHello();
+
+const onClick = () => {
+  console.log("button emit event");
+};
 </script>
 
 <style scoped>
