@@ -6,7 +6,7 @@
 - server engine `Nitro`
 - api
   - $fetch -> [ohmyfetch](https://github.com/unjs/ohmyfetch)
-  - middleware [Nitro](https://github.com/unjs/nitro) includes [h3](https://github.com/unjs/h3)
+  - middleware [Nitro](https://github.com/unjs/nitro) includes [h3](https://github.com/unjs/h3) http server
 - TypeScript
 
 - `public/` server root
