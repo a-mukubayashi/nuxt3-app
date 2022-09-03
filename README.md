@@ -1,5 +1,14 @@
 # Nuxt 3 Minimal Starter
 
+- webpack5, vite support
+- use esbuild
+- include vue router
+- server engine `Nitro`
+- api
+  - $fetch -> [ohmyfetch](https://github.com/unjs/ohmyfetch)
+  - middleware [Nitro](https://github.com/unjs/nitro) includes [h3](https://github.com/unjs/h3)
+- TypeScript
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
